@@ -1,0 +1,69 @@
+.cuadro {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    position: relative;
+  }
+  
+  .menu-image {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    cursor: pointer;
+  }
+  
+  .menu-image img {
+    width: 400px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .menu-image:hover img {
+    transform: scale(1.2);
+  }
+  
+  .login-button {
+    background-color: #24292e;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: #1d2226;
+  }
+
+  .logo-container {
+    text-align: center;
+    padding: 20px; 
+    width: 350px;
+  }
+  
+  .logo-img {
+    max-width: 100%;
+    height: min-content;
+  }
+
+  .menu-image2 {
+    position: absolute;
+    top: 250px;
+    left: 1270px;
+    cursor: pointer;
+  }
+  
+  .menu-image2 img {
+    width: 400px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .menu-image2:hover img {
+    transform: scale(1.2);
+  }

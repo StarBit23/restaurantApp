@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Cambiado de height a min-height */
+  background: url('../Images/image.png') center/cover no-repeat;
+  backdrop-filter: blur(1.5rem);
+  font-family: "Rubik";
+}
+
+nav {
+  background-color: #333;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  overflow-y: auto;
+  background-attachment: fixed; /* Agregado para que la barra lateral también sea fija */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  display: block;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+.active {
+  background-color: #444444;
+}
+
+.main-content {
+  margin-left: 220px; /* Ajusta este valor según el ancho de tu barra lateral */
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../Images/rest1.jpg') center/cover no-repeat;
+  filter: blur(7px);
+  z-index: -1;
+  background-attachment: fixed;
+}
